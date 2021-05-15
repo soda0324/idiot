@@ -1,1 +1,1 @@
-woker: python hsdiscordbot.py
+woker: python hsdiscordbot-2.py
