@@ -233,12 +233,10 @@ async def on_message(message):
     print(bau)
     if bau >= 0:
         await message.channel.send("__**^^7바우님 잘가~**__")
-    print(dasom)
-    if dasom >= 0:
-        await message.channel.send("야 다솜! 너 좀 귀엽다")
+    
     await app.process_commands(message)
 
 
 
 
-app.run('Nzk3NTI2NTA1NjA5NDk0NjQx.X_nwcA.krIo4gyXB7OsmBpxUhjCKZSLXGI')
+app.run('token')
