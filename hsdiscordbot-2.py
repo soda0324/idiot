@@ -205,7 +205,6 @@ async def on_message(message):
 
     bau = message_content.find("군바")
 
-    dasom = message_content.find("다솜아")
 
     print(bad)
     if bad >= 0:
@@ -239,4 +238,4 @@ async def on_message(message):
 
 
 
-app.run('token')
+app.run(os.environ['token'])
